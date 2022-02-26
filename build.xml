@@ -104,6 +104,7 @@ SOFTWARE.
         <javac destdir="${build}" srcdir="${src}" debug="on" includeantruntime="false">
             <include name="**/${problem.name}/*.java"/>
             <classpath refid="single.jar"/>
+            <compilerarg line="-encoding UTF-8 "/>
         </javac>
         <javac destdir="${build}" srcdir="${test.src}" debug="on" includeantruntime="false">
             <include name="**/${problem.name}/*.java"/>
