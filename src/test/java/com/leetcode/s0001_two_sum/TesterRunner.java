@@ -1,22 +1,24 @@
 /**
- * Leetcode - i_love_code
+ * Leetcode - s0001_two_sum
  */
-package com.leetcode.i_love_code;
+package com.leetcode.s0001_two_sum;
 
 // basic util
-import java.util.*;
-import com.ciaoshen.leetcode.util.*;
-// leetcode-helper library
+
 import com.ciaoshen.leetcode.helper.PropertyScanner;
-// junit 
+import org.apache.log4j.PropertyConfigurator;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
-// log4j
-import org.apache.log4j.PropertyConfigurator;
-// slf4j
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.Properties;
+
+// leetcode-helper library
+// junit
+// log4j
+// slf4j
 
 
 /**

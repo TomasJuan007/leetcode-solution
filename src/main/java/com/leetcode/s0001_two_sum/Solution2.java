@@ -1,9 +1,7 @@
 /**
- * Leetcode - i_love_code
+ * Leetcode - s0001_two_sum
  */
-package com.leetcode.i_love_code;
-import java.util.*;
-import com.ciaoshen.leetcode.util.*;
+package com.leetcode.s0001_two_sum;
 
 /**
  * log instance is defined in Solution interface
@@ -14,10 +12,8 @@ import com.ciaoshen.leetcode.util.*;
  *     }
  * =============================================
  */
-class Solution1 implements Solution {
+class Solution2 implements Solution {
 
-    public int add(int a, int b) {
-        return a + b;
-    }
+    public int[] twoSum(int[] nums, int target) { return new int[0];}
 
 }
