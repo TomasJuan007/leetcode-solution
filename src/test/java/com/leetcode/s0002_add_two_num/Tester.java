@@ -45,11 +45,24 @@ public class Tester {
     /** Initialize test cases */
     @Parameters
     public static Collection<Object[]> testcases() {
-        ListNode pa1 = new ListNode(0);
-        ListNode pb1 = new ListNode(0);
+        ListNode pa1 = new ListNode(1);
+        pa1.next = new ListNode(2);
+        ListNode pb1 = new ListNode(9);
+        pb1.next = new ListNode(1);
         ListNode e1 = new ListNode(0);
+        e1.next = new ListNode(4);
+
+        ListNode pa2 = new ListNode(9);
+        pa2.next = new ListNode(7);
+        ListNode pb2 = new ListNode(9);
+        pb2.next = new ListNode(1);
+        pb2.next.next = new ListNode(2);
+        ListNode e2 = new ListNode(8);
+        e2.next = new ListNode(9);
+        e2.next.next = new ListNode(2);
         return Arrays.asList(new Object[][]{
-                {pa1,pb1,e1}
+                {pa1,pb1,e1},
+                {pa2,pb2,e2}
             // {},     // test case 1 (init parameters below: {para1, para2, expected})
             // {},     // test case 2 (init parameters below: {para1, para2, expected})
             // {}      // test case 3 (init parameters below: {para1, para2, expected})
