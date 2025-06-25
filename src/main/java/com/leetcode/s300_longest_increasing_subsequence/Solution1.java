@@ -2,7 +2,7 @@
  * 最长递增子序列长度
  * 如: [1,5,2,4,3] 结果为: 3，即 [1,2,4] 或 [1,2,3]
  */
-package com.others.s0001_length_of_longest_increase_array;
+package com.leetcode.s300_longest_increasing_subsequence;
 
 class Solution1 implements Solution {
 

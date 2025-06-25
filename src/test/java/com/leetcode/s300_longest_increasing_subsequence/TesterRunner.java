@@ -1,7 +1,7 @@
 /**
  * Leetcode - s0003_length_of_longest_substring
  */
-package com.others.s0001_length_of_longest_increase_array;
+package com.leetcode.s300_longest_increasing_subsequence;
 
 // basic util
 
